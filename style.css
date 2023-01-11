@@ -1,6 +1,6 @@
 .odintitle {
     background-color: darkseagreen;
-    color: olivedrab;
+    color: darkolivegreen;
     text-align: center;
     font-family:Arial, Helvetica, sans-serif;
     width: 952px;
@@ -8,19 +8,33 @@
     border: solid 5px;
     border-color: darkolivegreen;
 }
-.bodytext {
+#flexcontainer {
     font-family:Arial, Helvetica, sans-serif;
     text-align: center;
     list-style-position: inside;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    justify-content: space-between;
+    width: 300px;
+    margin-left: 802px;
+    background-color: darkseagreen;
+    border: solid 2px darkolivegreen;
+}
+.bodytext {
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
 }
 .welcome {
     font-size: larger;
+    font-family:Arial, Helvetica, sans-serif;
 }
 .viking {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    border: solid 5px darkolivegreen; 
   }
 html {
     background-color: ivory;
