@@ -1,14 +1,15 @@
 .odintitle {
     background-color: darkseagreen;
-    color: darkolivegreen;
+    color: black;
     text-align: center;
     font-family:Arial, Helvetica, sans-serif;
     width: 952px;
-    margin-left: 471px;
+    margin-left: auto;
+    margin-right: auto;
     border: solid 5px;
     border-color: darkolivegreen;
 }
-#flexcontainer {
+#linkcontainer {
     font-family:Arial, Helvetica, sans-serif;
     font-size: larger;
     text-align: center;
@@ -18,10 +19,16 @@
     justify-content: center;
     justify-content: space-between;
     width: 400px;
-    margin-left: 755px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 25px;
     background-color: darkseagreen;
     border: solid 2px darkolivegreen;
 }
+#textcontainer {
+    margin-top: 50px;
+}
+
 .bodytext {
     text-align: center;
     font-family:Arial, Helvetica, sans-serif;
@@ -36,7 +43,8 @@
     margin-right: auto;
     width: 50%;
     border: solid 5px darkolivegreen; 
+    margin-top: 40px;
   }
-html {
+body {
     background-color: beige;
 }
